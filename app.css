@@ -1,0 +1,23 @@
+body { 
+    margin: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
